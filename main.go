@@ -9,4 +9,5 @@ func main() {
 	values()
 	variables()
 	constants()
+	goForLoop()
 }
