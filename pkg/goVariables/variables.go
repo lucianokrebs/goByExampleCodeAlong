@@ -1,8 +1,8 @@
-package main
+package goVariables
 
 import "fmt"
 
-func variables() {
+func Variables() {
 	var a = "initial"
 	fmt.Printf("a: %v\n", a)
 

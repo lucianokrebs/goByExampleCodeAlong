@@ -1,8 +1,8 @@
-package main
+package goFor
 
 import "fmt"
 
-func goForLoop() {
+func ForLoop() {
 	i := 1
 	for i <= 3 {
 		fmt.Printf("i: %v\n", i)

@@ -1,4 +1,4 @@
-package main
+package goIfElse
 
 import (
 	"crypto/rand"
@@ -7,7 +7,7 @@ import (
 	"math/big"
 )
 
-func ifElse() {
+func IfElse() {
 	randomNumber, err := rand.Int(rand.Reader, big.NewInt(100))
 	if err != nil {
 		log.Fatal("error creating random number: ", err)
