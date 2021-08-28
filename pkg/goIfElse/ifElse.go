@@ -3,6 +3,7 @@ package goIfElse
 import (
 	"crypto/rand"
 	"fmt"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
 	"log"
 	"math/big"
 )
@@ -17,10 +18,12 @@ func IfElse() {
 	fmt.Printf("r: %v\n", r)
 
 	if r < int64(33) {
-		fmt.Printf("smaller than 33")
+		fmt.Println("smaller than 33")
 	} else if r >= int64(33) && r <= int64(66) {
-		fmt.Printf("between 33 and 66")
+		fmt.Println("between 33 and 66")
 	} else {
-		fmt.Printf("bigger than 66")
+		fmt.Println("bigger than 66")
 	}
+
+	goPrint.PrintDashes()
 }

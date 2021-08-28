@@ -5,17 +5,20 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goConstants"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFor"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSwitch"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goValues"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goVariables"
 )
 
 func main() {
 	fmt.Println("GoByExample code-along")
-	fmt.Println("------------")
+	goPrint.PrintDashes()
 
 	goValues.Values()
 	goVariables.Variables()
 	goConstants.Constants()
 	goFor.ForLoop()
 	goIfElse.IfElse()
+	goSwitch.GoSwitch()
 }

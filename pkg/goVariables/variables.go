@@ -1,6 +1,9 @@
 package goVariables
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
+)
 
 func Variables() {
 	var a = "initial"
@@ -18,5 +21,5 @@ func Variables() {
 	f := "apple"
 	fmt.Printf("f: %v\n", f)
 
-	fmt.Println("------------")
+	goPrint.PrintDashes()
 }
