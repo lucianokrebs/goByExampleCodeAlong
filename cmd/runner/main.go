@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goArrays"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goConstants"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFor"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
@@ -21,4 +22,5 @@ func main() {
 	goFor.ForLoop()
 	goIfElse.IfElse()
 	goSwitch.GoSwitch()
+	goArrays.GoArrays()
 }
