@@ -1,6 +1,9 @@
 package goConstants
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
+)
 
 func Constants() {
 	const s string = "my constant"
@@ -9,5 +12,5 @@ func Constants() {
 	const n int32 = 500000
 	fmt.Printf("n: %v\n", n)
 
-	fmt.Println("------------")
+	goPrint.PrintDashes()
 }

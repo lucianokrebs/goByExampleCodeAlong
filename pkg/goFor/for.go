@@ -1,6 +1,9 @@
 package goFor
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
+)
 
 func ForLoop() {
 	i := 1
@@ -25,5 +28,5 @@ func ForLoop() {
 		fmt.Printf("n: %v\n", n)
 	}
 
-	fmt.Println("------------")
+	goPrint.PrintDashes()
 }
