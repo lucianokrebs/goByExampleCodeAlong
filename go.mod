@@ -1,3 +1,3 @@
-module goByExample
+module github.com/lucianokrebs/goByExampleCodeAlong
 
-go 1.15
+go 1.16

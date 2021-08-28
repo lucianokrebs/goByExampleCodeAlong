@@ -1,8 +1,8 @@
-package main
+package goConstants
 
 import "fmt"
 
-func constants() {
+func Constants() {
 	const s string = "my constant"
 	fmt.Printf("s: %v\n", s)
 
