@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goArrays"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goClosures"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goConstants"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFor"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFunctions"
@@ -11,6 +12,7 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goMultipleReturns"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goRange"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goRecursion"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSlices"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSwitch"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goValues"
@@ -33,4 +35,6 @@ func main() {
 	goRange.GoRange()
 	goFunctions.GoFunctions()
 	goMultipleReturns.MultipleReturns()
+	goClosures.ClosureExample()
+	goRecursion.RecursionExample()
 }
