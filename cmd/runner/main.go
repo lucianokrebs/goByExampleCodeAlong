@@ -6,6 +6,7 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goConstants"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFor"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goMaps"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSlices"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSwitch"
@@ -25,4 +26,5 @@ func main() {
 	goSwitch.GoSwitch()
 	goArrays.GoArrays()
 	goSlices.GoSlices()
+	goMaps.GoMaps()
 }
