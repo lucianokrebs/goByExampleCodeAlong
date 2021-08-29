@@ -8,6 +8,7 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goMaps"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goRange"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSlices"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSwitch"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goValues"
@@ -27,4 +28,5 @@ func main() {
 	goArrays.GoArrays()
 	goSlices.GoSlices()
 	goMaps.GoMaps()
+	goRange.GoRange()
 }
