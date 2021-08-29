@@ -5,6 +5,7 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goArrays"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goConstants"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFor"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFunctions"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goMaps"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
@@ -29,4 +30,5 @@ func main() {
 	goSlices.GoSlices()
 	goMaps.GoMaps()
 	goRange.GoRange()
+	goFunctions.GoFunctions()
 }
