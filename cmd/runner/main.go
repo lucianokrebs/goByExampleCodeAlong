@@ -5,6 +5,7 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goArrays"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goClosures"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goConstants"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goErrors"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFor"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFunctions"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
@@ -45,4 +46,5 @@ func main() {
 	goStructs.StructExamples()
 	goMethods.MethodExample()
 	goInterfaces.InterfaceExamples()
+	goErrors.ErrorsExample()
 }
