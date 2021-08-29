@@ -10,8 +10,7 @@ Just getting the hands dirty with golang following the awesome [GoByExample] web
 ### Running the code
 
 ```shell
-docker build . -t lucianokrebss/go-by-example
-docker run lucianokrebss/go-by-example
+./scripts/run.sh
 ```
 
 ### Upgrading Go version in macOS
@@ -20,6 +19,11 @@ docker run lucianokrebss/go-by-example
 brew update
 brew upgrade go
 ```
+
+### Further reading
+
+- [ ] [Go Slices](https://go.dev/blog/slices-intro)
+- [ ] [Go Project Layout](https://go.dev/blog/slices-intro)
 
 [GoByExample]: https://gobyexample.com/
 
