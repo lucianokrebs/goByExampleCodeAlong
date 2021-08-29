@@ -8,6 +8,7 @@ import (
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goFunctions"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goIfElse"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goMaps"
+	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goMultipleReturns"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goPrint"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goRange"
 	"github.com/lucianokrebs/goByExampleCodeAlong/pkg/goSlices"
@@ -31,4 +32,5 @@ func main() {
 	goMaps.GoMaps()
 	goRange.GoRange()
 	goFunctions.GoFunctions()
+	goMultipleReturns.MultipleReturns()
 }
